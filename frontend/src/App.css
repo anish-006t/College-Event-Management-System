@@ -1,0 +1,26 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background: #fff;
+  color: #111;
+  -webkit-font-smoothing: antialiased;
+}
+
+.App { min-height: 100vh; }
+
+/* legacy btn classes still used in some pages */
+.btn { display: inline-flex; align-items: center; gap: 6px; padding: 9px 18px; border-radius: 4px; border: 1px solid transparent; font-size: .875rem; font-weight: 500; cursor: pointer; transition: opacity .15s; white-space: nowrap; text-decoration: none; font-family: inherit; }
+.btn-primary { background: #111; color: #fff; border-color: #111; }
+.btn-primary:hover { opacity: .8; }
+.btn-primary:disabled { opacity: .4; cursor: not-allowed; }
+.btn-secondary { background: transparent; color: #111; border: 1px solid #111; }
+.btn-secondary:hover { background: #111; color: #fff; }
+
+.loading { display: flex; justify-content: center; align-items: center; min-height: 50vh; font-size: 1rem; color: #999; }
+
+@media (max-width: 768px) {
+  .auth-container { padding: 1.5rem; }
+  table { font-size: .85rem; }
+  table th, table td { padding: .6rem .8rem; }
+}
