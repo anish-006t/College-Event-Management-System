@@ -78,7 +78,7 @@ A centralized platform for managing events, registrations, merchandise, and part
 
 ## Advanced Features 
 
-### Tier A
+### Tier A (2 features — 16 marks)
 
 **1. Merchandise Payment Approval Workflow**
 - Participants upload payment proof (image) during merchandise purchase
@@ -96,7 +96,7 @@ A centralized platform for managing events, registrations, merchandise, and part
 - Manual override with audit logging
 - CSV export of attendance data
 
-### Tier B
+### Tier B (2 features — 12 marks)
 
 **1. Real-Time Discussion Forum**
 - Real-time messaging via Socket.IO on event detail pages
@@ -113,7 +113,7 @@ A centralized platform for managing events, registrations, merchandise, and part
 - Request status tracking (Pending/Approved/Rejected)
 - Full request history viewable by admin
 
-### Tier C
+### Tier C (1 feature — 2 marks)
 
 **1. Bot Protection (CAPTCHA)**
 - Google reCAPTCHA v2 on login and registration pages

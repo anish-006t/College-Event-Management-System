@@ -55,8 +55,9 @@ if (process.env.NODE_ENV !== 'test') {
 
 // Middleware
 app.use(cors({
-  origin: 'https://felicity-webapp-kfkz.vercel.app',
-  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  origin: ['https://felicity-webapp-kfkz.vercel.app','http://localhost:3000'],
+  methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true
 }));
 app.use(express.json());
