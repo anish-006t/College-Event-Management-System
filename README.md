@@ -39,7 +39,7 @@ A centralized platform for managing events, registrations, merchandise, and part
 | **Organizer** | Clubs/councils — accounts provisioned by admin |
 | **Admin** | System administrator — manages organizers, approves requests |
 
-## Core Features (Part 1)
+## Core Features 
 
 ### Authentication & Security
 - JWT-based auth with bcrypt password hashing
@@ -76,9 +76,9 @@ A centralized platform for managing events, registrations, merchandise, and part
 - Published/Ongoing → Completed (when endDate passes)
 - Discord notifications sent for auto-completed events
 
-## Advanced Features (Part 2)
+## Advanced Features 
 
-### Tier A (2 features — 16 marks)
+### Tier A
 
 **1. Merchandise Payment Approval Workflow**
 - Participants upload payment proof (image) during merchandise purchase
@@ -96,7 +96,7 @@ A centralized platform for managing events, registrations, merchandise, and part
 - Manual override with audit logging
 - CSV export of attendance data
 
-### Tier B (2 features — 12 marks)
+### Tier B
 
 **1. Real-Time Discussion Forum**
 - Real-time messaging via Socket.IO on event detail pages
@@ -113,7 +113,7 @@ A centralized platform for managing events, registrations, merchandise, and part
 - Request status tracking (Pending/Approved/Rejected)
 - Full request history viewable by admin
 
-### Tier C (1 feature — 2 marks)
+### Tier C
 
 **1. Bot Protection (CAPTCHA)**
 - Google reCAPTCHA v2 on login and registration pages
